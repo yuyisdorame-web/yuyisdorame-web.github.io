@@ -1,0 +1,44 @@
+body {
+    background-color : white;
+    display: flex;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 10px 0;
+    color: lime;
+}
+
+    p {
+        font-size: 14px;
+        color: black;
+    }
+
+    button{
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: white;
+    }
+
+
+    video {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 3px solid #ff0000;
+        object-fit: cover;
+    }
+
+    .tarjeta {
+        background-color: black;
+        border: 3px solid lime;
+        text-align: center;
+        margin : auto;
+    }
